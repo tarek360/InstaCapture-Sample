@@ -1,0 +1,43 @@
+<resources>
+  <string name="app_name">InstaCapture</string>
+
+  <string name="large_text">
+
+    "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+    "when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    "It has survived not only five centuries, but also the leap into electronic typesetting,"
+    "remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset"
+    "sheets containing Lorem Ipsum passages, and more recently with desktop publishing software."
+    "Aldus PageMaker including versions of Lorem Ipsum."
+
+    "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+    "when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    "It has survived not only five centuries, but also the leap into electronic typesetting,"
+    "remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset"
+    "sheets containing Lorem Ipsum passages, and more recently with desktop publishing software."
+    "Aldus PageMaker including versions of Lorem Ipsum."
+  </string>
+
+
+  <string name="show_dialog">Show Dialog</string>
+
+  <string name="sample_simple">Simple sample</string>
+  <string name="sample_google_map_view">Google Map View</string>
+  <string name="sample_google_map_fragment">Google Map Fragment</string>
+  <string name="sample_dialog">Dialog</string>
+  <string name="sample_ignore_views">Ignore Views</string>
+
+
+  <string name="dialog_title">Dialog</string>
+  <string name="dialog_message">Do you want capture me ?</string>
+
+  <string name="first_text">TextView</string>
+  <string name="second_text">Button</string>
+  <string name="third_text">Third Text</string>
+  <string name="check_to_ignore">Uncheck view or more to ignore from screenshot</string>
+  <string name="action_settings">Settings</string>
+
+
+</resources>

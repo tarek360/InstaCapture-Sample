@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IgnoreViewsSampleActivity">
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:text="@string/check_to_ignore"/>
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/first_text"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_toRightOf="@+id/textViewCheckBox"
+        android:layout_marginLeft="@dimen/sample_button_spacing"
+        android:layout_below="@+id/hint"
+        android:layout_marginTop="@dimen/ignoredViews_marginTop"
+    />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/second_text"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_toRightOf="@+id/buttonCheckBox"
+        android:layout_marginLeft="@dimen/sample_button_spacing"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="@dimen/ignoredViews_marginTop"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:layout_toRightOf="@+id/imageViewCheckBox"
+        android:layout_marginLeft="@dimen/sample_button_spacing"
+        android:layout_below="@+id/button"
+        android:layout_marginTop="@dimen/ignoredViews_marginTop"/>
+
+    <CheckBox
+        android:id="@+id/textViewCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:layout_alignTop="@+id/textView"/>
+
+    <CheckBox
+        android:id="@+id/buttonCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:layout_alignTop="@+id/button"/>
+
+    <CheckBox
+        android:id="@+id/imageViewCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:layout_alignTop="@+id/imageView"/>
+
+
+  </RelativeLayout>
+  <android.support.design.widget.FloatingActionButton
+      android:id="@+id/fab"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="bottom|end"
+      android:layout_margin="@dimen/fab_margin"
+      android:src="@android:drawable/ic_menu_camera"/>
+
+</FrameLayout
+>
