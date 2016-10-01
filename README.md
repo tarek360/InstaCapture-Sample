@@ -1,7 +1,7 @@
-# ([InstaCapture](https://github.com/tarek360/InstaCapture) Sample
+# [InstaCapture](https://github.com/tarek360/InstaCapture) Sample
 
-Sample for ([InstaCapture](https://github.com/tarek360/InstaCapture)
-([InstaCapture](https://github.com/tarek360/InstaCapture) is an android library to capture screenshot from your app.
+Sample for [InstaCapture](https://github.com/tarek360/InstaCapture)
+which is an android library to capture screenshot from your app in runtime.
 
 ### Instant usage
 - Capture a screenshot by one line of code!
