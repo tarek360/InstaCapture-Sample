@@ -1,14 +1,15 @@
 # [InstaCapture](https://github.com/tarek360/InstaCapture) Sample
 
-Sample for [InstaCapture](https://github.com/tarek360/InstaCapture)
+Sample for using [InstaCapture](https://github.com/tarek360/InstaCapture)
 which is an android library to capture screenshot from your app in runtime.
+
+### [Download apk](https://github.com/tarek360/InstaCapture-Sample/raw/master/instacapture-sample.apk)
 
 ### Instant usage
 - Capture a screenshot by one line of code!
 ```java
 InstaCapture.getInstance(activity).capture();
 ```
-
 
 ## License
 
